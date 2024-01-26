@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./asset/css/second.css">
+</head>
+
+<body>
+    <div id="Calculator" class="layout_t_1 margin_t_200 color_o">
+        <div id="display" class="layout_t_2_a margin_20 color_b">
+            <p id="display2" class="font_80 margin_0">0</p>
+        </div>
+        <ul id="sign" class="layout_t_2_b margin_t_20 width_130_  radius_60_ color_w_">
+            <li>
+                <button class="font_25 bully" data-value="M+">M+</button>
+            </li>
+            <li>
+                <button class="font_25 bully" data-value="M-">M-</button>
+            </li>
+            <li>
+                <button class="font_25 bully" data-value="MRC">MRC</button>
+            </li>
+            <li>
+                <button class="font_25 bully" data-value="CE">CE</button>
+            </li>
+            <li>
+                <button class="font_25 bully" data-value="ON/OFF">ON/OFF</button>
+            </li>
+        </ul>
+        <div id="op" class="layout_t_2_c margin_20">
+            <div id="operand" class="layout_t_3_a margin_r_10 radius_10_ font_60_ color_w_">
+                <button class="operand" data-value="7">7</button>
+                <button class="operand" data-value="8">8</button>
+                <button class="operand" data-value="9">9</button>
+                <button class="operand" data-value="4">4</button>
+                <button class="operand" data-value="5">5</button>
+                <button class="operand" data-value="6">6</button>
+                <button class="operand" data-value="1">1</button>
+                <button class="operand" data-value="2">2</button>
+                <button class="operand" data-value="3">3</button>
+                <button class="operand" data-value="0">0</button>
+                <button class="operand" data-value="00">00</button>
+                <button class="operand" data-value=".">.</button>
+            </div>
+            <div id="operator" class="layout_t_3_b radius_10_ font_60_ color_w_ ">
+                <button class="operator" data-value="÷">÷</button>
+                <button class="operator" data-value=">">></button>
+                <button class="operator" data-value="x">x</button>
+                <button class="operator" data-value="%">%</button>
+                <button class="operator" data-value="-">-</button>
+                <button class="operator" data-value="MU">MU</button>
+                <button class="operator" data-value="+">+</button>
+                <button class="operator" data-value="=">=</button>
+            </div>
+        </div>
+    </div>
+    <p
+        style="font-size: 70px; background-color: #fff59d; border-color: #fbc02d; border-style: solid; position: relative; right: 180px; margin-bottom: 0;">
+        Record</p>
+    <div id="log" class="layout_t_3_d"
+        style="width: 1200px; height: 400px; background-color: #fff59d; position: relative; right: 180px; align-items: center; margin-top: 0;">
+        <div style="background-color: #fbc02d; width: 500px; height: 180px;">
+            <p class="font_45" style="margin: 0;">1.</p>
+            <p class="font_45" style="margin: 0; background-color: white;" id="1st"></p>
+        </div>
+        <div style="background-color: #fbc02d; width: 500px; height: 180px;">
+            <p class="font_45" style="margin: 0;">2.</p>
+            <p class="font_45" style="margin: 0; background-color: white;" id="2nd"></p>
+        </div>
+        <div style="background-color: #fbc02d; width: 500px; height: 180px;">
+            <p class="font_45" style="margin: 0;">3.</p>
+            <p class="font_45" style="margin: 0;background-color: white;" id="3rd"></p>
+        </div>
+        <div style="background-color: #fbc02d; width: 500px; height: 180px;">
+            <p class="font_45" style="margin: 0;">4.</p>
+            <p class="font_45" style="margin: 0; background-color: white;" id="4th"></p>
+        </div>
+    </div>
+    <script src="./asset/js/count.js"></script>
+</body>
+
+</html>

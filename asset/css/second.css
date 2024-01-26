@@ -1,0 +1,240 @@
+body {
+    width: 800px;
+    align-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+}
+
+button {
+    border-style: none;
+    background-color: wheat;
+}
+
+/*크기 지정*/
+
+.width_130_ >* {
+    width: 130px;
+}
+
+/*모깎기*/
+
+.radius_60_ >* {
+    border-radius: 60px;
+}
+
+
+
+.radius_10_ >* {
+    border-radius: 10px;
+}
+
+/*색*/
+.color_o {
+    border-color: orange;
+    border-style: solid;
+    background-color: #FFCC99;
+}
+
+.color_b {
+    box-sizing: border-box;
+    background-color: beige; 
+    border: 10px solid #faedc9;
+}
+
+.color_w {
+    border-color: orange;
+    border-style: solid;
+    background-color: wheat;    
+}
+
+.color_w_ >* {
+    border-color: orange;
+    border-style: solid;
+    background-color: wheat;    
+}
+
+/*폰트*/
+.font_80 {
+    font-size: 80px;
+}
+
+.font_25 {
+    font-size: 25px;
+}
+
+.font_25_ >* {
+    font-size: 25px;
+}
+
+.font_45 {
+    font-size: 45px;
+}
+
+.font_60 {
+    font-size: 60px;
+}
+
+.font_60_ >* {
+    font-size: 60px;
+}
+
+
+/*배치*/
+
+
+.margin_200 {
+    margin: 200px;
+}
+
+.margin_t_200 {
+    margin-top: 200px;
+}
+
+.margin_r_10 {
+    margin-right: 10px;
+}
+
+.margin_r_50 {
+    margin-right: 50px;
+}
+
+.margin_l_10 {
+    margin-left: 10px;
+}
+
+.margin_20 {
+    margin: 20px;
+}
+
+.margin_0 {
+    margin: 0;
+}
+
+.margin_0_ {
+    margin: 0;
+}
+
+.margin_20 {
+    margin-top: 20px;
+}
+
+.margin_t_20 {
+    margin-top: 20px;
+}
+
+.margin_30 {
+    margin-top: 30px;
+}
+
+.margin_t_30 {
+    margin-top: 30px;
+}
+
+.margin_50 {
+    margin-left: 50px;
+}
+
+.margin_t_50 {
+    margin-top: 50px;
+}
+
+.margin_30_40 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.margin_0_20 {
+    margin: 0 20px;
+    padding: 0;  
+}
+
+.margin_0_20_ >* {
+    margin: 0 20px;
+    padding: 0;
+    margin-top: 30px; 
+    margin-left: 20px;    
+}
+
+.margin_10_10{
+    margin: 10px 10px;
+}
+
+/*최상위*/
+
+.layout_t_1 {
+    height: 1000px;  
+    border-radius: 20px;             
+    display: flex;
+    flex-direction: column;
+}
+
+/*차상위 디스플레이 버튼군1 버튼군2*/
+
+.layout_t_2_a {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    height: 300px;
+    border-radius: 20px;            
+}
+
+.layout_t_2_b {
+    border-radius: 60px;    
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    padding: 0;        
+    justify-content: space-between;    
+    text-align: center;        
+}
+
+.layout_t_2_c {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    padding: 0;    
+}
+
+/*버튼군2의 2개의 버튼군1 버튼군2*/
+.layout_t_3_a {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;  
+    grid-template-rows: repeat(4, minmax(150px,1fr)) ;   
+    grid-gap: 5px;
+    flex-grow: 2;        
+}
+
+.layout_t_3_b {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows: repeat(3,minmax(100px,1fr)) 2fr;
+    grid-gap: 5px;
+    flex-grow: 1;    
+}
+
+.layout_t_3_d {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;  
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    flex-grow: 1;    
+}
+
+.operand {
+    color: black;
+}
+
+.operator {
+    color: black;
+}
+
+.bully {
+    color: black;
+}
+
